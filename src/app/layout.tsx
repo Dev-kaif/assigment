@@ -13,12 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="relative min-h-screen antialiased">
+      <body className="relative min-h-screen">
         <div className="absolute inset-0 bg-[url('/background.png')] bg-cover bg-center z-0" />
-
-        <div className="absolute inset-0 bg-[#DA2653]/90 z-10" />
-
-        <div className="relative z-20">{children}</div>
+        {children}
       </body>
     </html>
   );
