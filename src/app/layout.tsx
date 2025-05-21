@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="relative min-h-screen">
+      <body className="relative min-h-screen overflow-x-hidden">
         <div className="absolute inset-0 bg-[url('/background.png')] bg-cover bg-center z-0" />
         {children}
       </body>
